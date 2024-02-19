@@ -1,0 +1,19 @@
+/* ---- CSS Demo ---- */  
+body{background-color: darkslategray;}
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /*  --------------- Global Styles -----------------  */
+
+body{
+    font-family: "Gabarito", sans-serif;
+    }
+
+    header.primary{
+        background:red;
+    }
