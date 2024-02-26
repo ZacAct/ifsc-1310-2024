@@ -10,10 +10,10 @@ html {
   }
   /*  --------------- Global Styles -----------------  */
 
-body{
-    font-family: "Gabarito", sans-serif;
+body{  font-family: "Raleway", sans-serif;
+
     }
 
     header.primary{
-        background:red;
+        background-color:#3F59EB;
     }
