@@ -1,3 +1,15 @@
 body{
+    font-family: "Raleway", sans-serif;
     background-color: darkolivegreen;
+}
+
+nav{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    line-height: 50px;
 }
