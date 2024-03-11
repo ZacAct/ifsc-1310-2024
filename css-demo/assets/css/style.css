@@ -1,7 +1,7 @@
 /* ---- CSS Demo ---- */  
 
 /* ---------------Box Sizing---------------- */
-body{background-color: darkslategray;}
+body{background-color: rgb(156, 155, 155);}
 html {
     box-sizing: border-box;
   }
@@ -10,7 +10,44 @@ html {
   *:after {
     box-sizing: inherit;
   }
-  /*  --------------- Global Styles -----------------  */
+/*  --------------- Responsive Images -----------------  */
+
+img{
+  max-width:100%;
+}
+
+  /*  --------------- Utility Classes -----------------  */
+
+  .container{
+    max-width:960px;
+    width:80vw;
+    margin:40px auto;
+  }
+
+  .img-.img-right{
+    float:right;
+    margin: 10px 0 10px 20px;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    border-radius:50px;
+  }
+  
+  .img-left{
+    float:left;
+    margin: 10px 20px 10px 0;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    border-radius:50px;
+  }
+  
+  .img-center{
+    display:block;
+    margin:20px auto;
+    border:1px solid #c0c0c0;
+    padding:5px;
+    border-radius:50px;
+  }
+  /*  --------------- Global Styles -------------------  */
 
 body{  font-family: "Raleway", sans-serif;
   margin: 0;
@@ -65,3 +102,87 @@ body{  font-family: "Raleway", sans-serif;
     header.primary ul li {
       list-style-type: none;
     }
+    
+    #content{
+      line-height:1.5;
+      }
+      
+      #content h2{
+       color: #0b3c6e;
+       border-bottom:1px dotted #c0c0c0;
+      }
+      
+      #content h3{
+        border-left: 7.5px solid #3b638b;
+        padding:7.5px;
+      }
+
+      #blog{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        gap:2rem;
+        border-bottom:1px dotted #c0c0c0;
+        padding: 2rem 0;
+        border-top:1px dotted #c0c0c0;
+        flex-wrap:wrap;
+      }
+      
+      #blog h2 {
+        flex:0 0 100%;
+        margin:0;
+        text-align:center;
+      }
+      
+      #blog .post{
+        box-shadow: 0 4px 8px rgba(0,0,0,.6);
+        padding: 10px;
+        border-radius:4px;
+        font-size:.8rem;
+        transition:.5s;
+        flex:1;
+      }
+      
+      #blog figure{
+        margin:0;
+      }
+      
+      #blog figcaption{
+        text-transform:uppercase;
+        font-size:.6rem;
+        text-align:center;
+        color:#c0c0c0;
+      }
+      
+      #blog header{
+        padding-top:10px;
+        font-size:.6rem;
+        color:#c0c0c0;
+      }
+      
+      #blog header h2{
+        margin:0;
+      }
+      
+      #blog a{
+        color:#3b638b;
+      }
+      
+      #blog .post:hover{
+        box-shadow: 0 8px 16px rgba(0,0,0,.6);
+      }
+
+
+
+@media screen and (max-width: 600px) {
+  header.primary ul {
+    flex-direction: column;
+    gap:10px;
+    max-width:250px;
+    margin:auto;
+  }
+
+  header.primary nav a{
+    display:block;
+  }
+}
