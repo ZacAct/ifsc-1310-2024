@@ -63,16 +63,42 @@ img{
 
     #content h3 {
       font-size: 1.6rem;
-      color: #fff;
+      color: #000000;
       background-color: brown;
+      
     }
 
     #content h4 {
+      font-size: 1.3rem;
+      border-top:2px solid #c71818;
+    }
+    
+
+    #content h5 {
       font-size: 1.3rem;
     }
 
     #content dl {
       font-size: 1.2rem;
-
     }
 
+
+
+
+
+
+
+
+
+
+
+
+    
+    @media screen and (max-width: 600px) {
+      header.primary ul {
+        flex-direction: column;
+        gap: 10px;
+        max-width: 250px;
+        margin: auto;
+      }
+    }
