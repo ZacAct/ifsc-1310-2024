@@ -12,7 +12,12 @@ img{
   margin: 40px auto;
 }
 
-
+.img-border{
+  margin: 10px 0 10px 20px;
+  border:1px solid #000000;
+  padding:5px;
+  border-radius:40px;
+}
 
 
 
@@ -30,7 +35,7 @@ img{
 
 
  header.primary{
-  background-image: url("../img/tech1104segway_13_700x479.jpg"); background-repeat: no-repeat;
+  background-image: url("../img/tech1104segway_12_700x479.jpg"); background-repeat: no-repeat;
   background-size: cover;
   height:800px;
   }
@@ -71,6 +76,7 @@ img{
 
     #content p {
       font-size: 1.4rem;
+      line-height: 1.5;
     }
 
     #content h3 {
@@ -94,6 +100,17 @@ img{
       font-size: 1.2rem;
     }
 
+    #content dt{
+      font-weight: bold;
+     padding: 1rem;
+    }
+
+    #content dd{
+      padding: 0rem 0rem 1rem 0rem;
+    }
+    
+    
+
     #end {
       img{
         max-width: 20%;
@@ -102,7 +119,28 @@ img{
         float: right;
         margin: -200px -25px 0px 0px;
         }
-        
+
+    }
+
+    #question dl {
+      font-size: 1.3rem;
+    }
+
+    #question dt{
+      font-size: 1.4rem;
+      font-weight: bold;
+     padding: 2rem;
+    }
+
+    #question dd{
+      padding: .5rem 0rem 2.5rem 0rem;
+    }
+
+    #about p{
+      font-size: 1.4rem;
+      padding: 1rem;
+      line-height: 1.5;
+      
     }
 
     #end h6 {
