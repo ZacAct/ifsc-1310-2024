@@ -1,12 +1,42 @@
+/*  --------------- Utility Classes -----------------  */
+.container {
+    max-width: 2000px;
+    width: 80vw;
+    margin: 40px auto;
+  }
+
+
+
+  /*  --------------- Global Styles -------------------  */
+
 body{
-    font-family: "Raleway", sans-serif;
-    background-color: darkolivegreen;
+        font-family: "Jersey 15", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+body{background-color: darkolivegreen;}
+
+body h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+body h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+body p{
+    font-size: 20px
 }
 
 nav{
     text-align: center;
     font-weight: 700;
+    display: flex;
+    flex-direction: row;
     padding: 10px;
+    font-size: 20px;
 }
 
 nav ul{
