@@ -1,0 +1,174 @@
+/* ---- Segway ---- */  
+/*  --------------- Responsive Images -----------------  */
+
+img{
+    max-width:100%;
+ }
+
+/*  --------------- Utility Classes -----------------  */
+.container {
+  max-width: 2000px;
+  width: 80vw;
+  margin: 40px auto;
+}
+
+.img-border{
+  margin: 10px 0 10px 20px;
+  border:1px solid #000000;
+  padding:5px;
+  border-radius:40px;
+}
+
+
+
+
+  /*  --------------- Global Styles -------------------  */
+  body 
+    {
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    body {background-color: rgb(169, 168, 168);}
+
+
+ header.primary{
+  background-image: url("../img/tech1104segway_12_700x479.jpg"); background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 110px 0px;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+  header.primary h1 {
+    font-size: 5.5rem;
+    margin: 10px 0 0;
+  }
+
+  header.primary h2 {
+    margin: 20px 0 0 0;
+    color: rgb(255, 22, 22);
+    font-size: 2.5rem;
+  }
+  header.primary ul li {
+    list-style-type: none;
+    margin: 30px auto;
+    font-size: 1.5rem;
+  }
+
+    header.primary nav a {
+      color: #fff;
+      text-decoration: none;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 7.5px 10px;
+      border-radius: 20px;
+      transition: 0.4s;
+  }
+
+  header.primary nav a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+    section.container h2 {
+      color: rgb(197, 20, 20);
+      font-size: 1.6rem;
+      text-align: center;
+    }
+
+    #content p {
+      font-size: 1.4rem;
+      line-height: 1.5;
+    }
+
+    #content h3 {
+      font-size: 1.6rem;
+      color: #000000;
+      background-color: brown;
+      
+    }
+
+    #content h4 {
+      font-size: 1.3rem;
+      border-top:2px solid #c71818;
+    }
+    
+
+    #content h5 {
+      font-size: 1.3rem;
+    }
+
+    #content dl {
+      font-size: 1.2rem;
+    }
+
+    #content dt{
+      font-weight: bold;
+     padding: 1rem;
+    }
+
+    #content dd{
+      padding: 0rem 0rem 1rem 0rem;
+    }
+    
+    
+    #question dl {
+      font-size: 1.3rem;
+    }
+
+    #question dt{
+      font-size: 1.4rem;
+      font-weight: bold;
+     padding: 2rem;
+    }
+
+    #question dd{
+      padding: .5rem 0rem 2.5rem 0rem;
+    }
+
+    #about p{
+      font-size: 1.4rem;
+      padding: 1rem;
+      line-height: 1.5;
+      
+    }
+    #end {
+      img{
+        width: 200px;
+        height: 200px;
+        padding: 50px;
+        float: right;
+        margin: -250px 0px 0px 20px;
+        }
+    }
+
+    #end h6 {
+      color: #fff;
+      padding: 20px;
+      text-align: left;
+      background-color: #000000; 
+      max-width: 100%;
+      margin: 200px 0px 0px 0px; 
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+    
+    @media screen and (max-width: 600px) {
+      header.primary ul {
+        flex-direction: column;
+        gap: 10px;
+        max-width: 250px;
+        margin: auto;
+      }
+    }
