@@ -14,7 +14,9 @@ body{
         font-weight: 600;
         font-style: normal;
     }
-body{background-color: #785B56;}
+body{
+    background-color: #785B56;
+}
 
 body h1{
     text-align: center;
@@ -46,7 +48,7 @@ nav{
 }
 
 nav{
-    background-image: url("../img/CSS\ SF\ BG.jpg"); background-repeat: no-repeat;
+    background-image: url("../img/CSS SF BG.jpg"); background-repeat: no-repeat;
     margin: 10px 0 10px 20px;
     border:1px solid #000000;
     padding:5px;
